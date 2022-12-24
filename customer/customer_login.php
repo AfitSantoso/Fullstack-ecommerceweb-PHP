@@ -6,14 +6,13 @@
 
 <h1>Login</h1>
 
-<p class="lead" >Already our Customer</p>
+<p class="lead" >Siap untuk Semua Customer Kami</p>
 
 
 </center>
 
 <p class="text-muted" >
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-
+Silahkan login untuk melakukan checkout barang. Jika belum mempunyai akun, kamu dapat registrasi terlebih dahulu
 </p>
 
 
@@ -39,7 +38,7 @@ Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac tu
 
 <h4 align="center">
 
-<a href="forgot_pass.php"> Forgot Password </a>
+<a href="forgot_pass.php"> Lupa Password </a>
 
 </h4>
 
@@ -63,7 +62,7 @@ Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac tu
 
 <a href="customer_register.php" >
 
-<h3>New ? Register Here</h3>
+<h3>Belum Mempunyai Akun? Registrasi disini</h3>
 
 </a>
 

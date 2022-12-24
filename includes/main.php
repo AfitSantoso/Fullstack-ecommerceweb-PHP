@@ -203,7 +203,7 @@
                 <i></i>
             </label>
             <div class="logo animate__animated animate__zoomInDown">
-                <a href="index.php">Giftsy </a>
+                <a href="index.php">ARV.ID </a>
             </div>
             <div class=" nav-wrapper">
                 <ul>

@@ -140,7 +140,7 @@ $total += $sub_total;
 
 <td>
 
-$<?php echo $only_price; ?>.00
+Rp.<?php echo $only_price; ?> 
 
 </td>
 
@@ -152,7 +152,7 @@ $<?php echo $only_price; ?>.00
 
 <td>
 
-$<?php echo $sub_total; ?>.00
+Rp.<?php echo $sub_total; ?>
 
 </td>
 
@@ -168,7 +168,7 @@ $<?php echo $sub_total; ?>.00
 
 <th colspan="5"> Total </th>
 
-<th colspan="2"> $<?php echo $total; ?>.00 </th>
+<th colspan="2"> Rp.<?php echo $total; ?> </th>
 
 </tr>
 
@@ -379,7 +379,7 @@ Shipping and additional costs are calculated based on the values you have entere
 
 <td> Order Subtotal </td>
 
-<th> $<?php echo $total; ?>.00 </th>
+<th> Rp.<?php echo $total; ?> </th>
 
 </tr>
 
@@ -387,7 +387,7 @@ Shipping and additional costs are calculated based on the values you have entere
 
 <td> Shipping and handling </td>
 
-<th>$0.00</th>
+<th>Rp.</th>
 
 </tr>
 
@@ -395,7 +395,7 @@ Shipping and additional costs are calculated based on the values you have entere
 
 <td>Tax</td>
 
-<th>$0.00</th>
+<th>Rp.</th>
 
 </tr>
 
@@ -403,7 +403,7 @@ Shipping and additional costs are calculated based on the values you have entere
 
 <td>Total</td>
 
-<th>$<?php echo $total; ?>.00</th>
+<th>Rp.<?php echo $total; ?></th>
 
 </tr>
 
@@ -479,16 +479,16 @@ $pro_url = $row_products['product_url'];
 
 if($pro_label == "Sale" or $pro_label == "Gift"){
 
-$product_price = "<del> $$pro_price </del>";
+$product_price = "<del> Rp.$pro_price </del>";
 
-$product_psp_price = "| $$pro_psp_price";
+$product_psp_price = "| Rp.$pro_psp_price";
 
 }
 else{
 
 $product_psp_price = "";
 
-$product_price = "$$pro_price";
+$product_price = "Rp.$pro_price";
 
 }
 

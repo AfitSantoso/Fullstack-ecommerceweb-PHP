@@ -13,7 +13,7 @@ include("includes/main.php");
     <!-- HERO -->
     <div class="nero">
       <div class="nero__heading">
-        <span class="nero__bold">Forgot</span> password
+        <span class="nero__bold">Lupa</span> password
       </div>
       <p class="nero__text">
       </p>
@@ -31,7 +31,7 @@ include("includes/main.php");
 <a href="index.php">Home</a>
 </li>
 
-<li>Register</li>
+<li>Registrasi</li>
 
 </ul><!-- breadcrumb Ends -->
 
@@ -48,7 +48,7 @@ include("includes/main.php");
 
 <center>
 
-<h3> Enter Your Email Below , We Will Send You , Your Password </h3>
+<h3> Masukkan Email yang terkait , Kami akan mengirim pesan passwordmu</h3>
 
 </center>
 

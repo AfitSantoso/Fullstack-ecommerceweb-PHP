@@ -134,16 +134,16 @@ $pro_url = $row_products['product_url'];
 
 if($pro_label == "Sale" or $pro_label == "Gift"){
 
-$product_price = "<del> $$pro_price </del>";
+$product_price = "<del> Rp.$pro_price </del>";
 
-$product_psp_price = "| $$pro_psp_price";
+$product_psp_price = "| Rp.$pro_psp_price";
 
 }
 else{
 
 $product_psp_price = "";
 
-$product_price = "$$pro_price";
+$product_price = "Rp.$pro_price";
 
 }
 
@@ -340,16 +340,16 @@ $pro_url = $row_products['product_url'];
 
 if($pro_label == "Sale" or $pro_label == "Gift"){
 
-$product_price = "<del> $$pro_price </del>";
+$product_price = "<del> Rp.$pro_price </del>";
 
-$product_psp_price = "| $$pro_psp_price";
+$product_psp_price = "| Rp.$pro_psp_price";
 
 }
 else{
 
 $product_psp_price = "";
 
-$product_price = "$$pro_price";
+$product_price = "Rp.$pro_price";
 
 }
 

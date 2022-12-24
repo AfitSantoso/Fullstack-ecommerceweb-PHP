@@ -18,7 +18,7 @@ include("includes/main.php");
 
 <div class="row">
   <div class="col-md-12">
-    <h1 style="text-align:center;">Giftsyy</h1>
+    <h1 style="text-align:center;">ARV.ID</h1>
   </div>
 </div>
 <br><br><br>

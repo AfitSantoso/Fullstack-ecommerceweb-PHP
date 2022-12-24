@@ -91,7 +91,7 @@ getPro();
 <div class="col-md-3 jack">
     <ul>
         <li><h5>OFFICE ADDRESS</h5></li>
-        <li>Head Office: Avenue Fashion.
+        <li>Head Office: ARV ID.
 180-182 Regent Street, London</li>
 <li>Telephone: 0123-456-789</li>
 <li>Email: support@yourwebsite.com</li>
