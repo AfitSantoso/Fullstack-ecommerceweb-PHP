@@ -26,13 +26,13 @@ $customer_image = $row_customer['customer_image'];
 
 ?>
 
-<h1 align="center" > Edit Your Account </h1>
+<h1 align="center" > Edit Akun </h1>
 
 <form action="" method="post" enctype="multipart/form-data" ><!--- form Starts -->
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label> Customer Name: </label>
+<label> Nama Customer : </label>
 
 <input type="text" name="c_name" class="form-control" required value="<?php echo $customer_name; ?>">
 
@@ -41,7 +41,7 @@ $customer_image = $row_customer['customer_image'];
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label> Customer Email: </label>
+<label> Email Customer : </label>
 
 <input type="text" name="c_email" class="form-control" required value="<?php echo $customer_email; ?>">
 
@@ -50,7 +50,7 @@ $customer_image = $row_customer['customer_image'];
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label> Customer Country: </label>
+<label> Negara Customer : </label>
 
 <input type="text" name="c_country" class="form-control" required value="<?php echo $customer_country; ?>">
 
@@ -59,7 +59,7 @@ $customer_image = $row_customer['customer_image'];
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label> Customer City: </label>
+<label> Kota Customer : </label>
 
 <input type="text" name="c_city" class="form-control" required value="<?php echo $customer_city; ?>">
 
@@ -68,7 +68,7 @@ $customer_image = $row_customer['customer_image'];
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label> Customer Contact: </label>
+<label> Kontak Customer : </label>
 
 <input type="text" name="c_contact" class="form-control" required value="<?php echo $customer_contact; ?>">
 
@@ -77,7 +77,7 @@ $customer_image = $row_customer['customer_image'];
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label> Customer Address: </label>
+<label> Alamat Customer : </label>
 
 <input type="text" name="c_address" class="form-control" required value="<?php echo $customer_address; ?>">
 
@@ -86,7 +86,7 @@ $customer_image = $row_customer['customer_image'];
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label> Customer Image: </label>
+<label> Foto Customer : </label>
 
 <input type="file" name="c_image" class="form-control" required ><br>
 
@@ -99,7 +99,7 @@ $customer_image = $row_customer['customer_image'];
 
 <button name="update" class="btn btn-primary" >
 
-<i class="fa fa-user-md" ></i> Update Now
+<i class="fa fa-user-md" ></i> Update
 
 </button>
 

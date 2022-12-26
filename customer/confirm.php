@@ -9,10 +9,10 @@ echo "<script>window.open('../checkout.php','_self')</script>";
 
 }else {
 
-include("includes/db.php");
-include("includes/header.php");
-include("functions/functions.php");
-include("includes/main.php");
+include("../includes/db.php");
+include("../includes/header.php");
+include("../functions/functions.php");
+include("../includes/main.php");
 
 if(isset($_GET['order_id'])){
 
@@ -30,7 +30,7 @@ $order_id = $_GET['order_id'];
 
 <div class="col-md-3"><!-- col-md-3 Starts -->
 
-<?php include("includes/sidebar.php"); ?>
+<?php include("../includes/sidebar.php"); ?>
 
 </div><!-- col-md-3 Ends -->
 
@@ -174,13 +174,13 @@ echo "<script>window.open('my_account.php?my_orders','_self')</script>";
 
 <?php
 
-include("includes/footer.php");
+include("../includes/footer.php");
 
 ?>
 
-<script src="js/jquery.min.js"> </script>
+<script src="../js/jquery.min.js"> </script>
 
-<script src="js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
 
 </body>
 </html>

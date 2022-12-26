@@ -1,13 +1,12 @@
-
 <center><!-- center Starts -->
 
-<h1>My Orders</h1>
+<h1>Pesanan Saya</h1>
 
-<p class="lead"> Your orders on one place.</p>
+<p class="lead"> Pesanan Anda di Satu Tempat</p>
 
 <p class="text-muted" >
 
-If you have any questions, please feel free to <a href="../contact.php" > contact us,</a> our customer service center is working for you 24/7.
+Jika Anda memiliki pertanyaan, jangan ragu untuk  <a href="../contact.php" > menghubungi kami,</a> pusat layanan pelanggan kami bekerja untuk Anda 24/7.
 
 
 </p>
@@ -25,13 +24,13 @@ If you have any questions, please feel free to <a href="../contact.php" > contac
 
 <tr>
 
-<th>O N:</th>
-<th>Due Amount:</th>
-<th>Invoice No:</th>
-<th>Qty:</th>
+<th>No :</th>
+<th>Total Bayar:</th>
+<th>Kode Pesanan:</th>
+<th>Kuantitas:</th>
 <th>Size:</th>
-<th>Order Date:</th>
-<th>Paid/Unpaid:</th>
+<th>Tgl Pesan:</th>
+<th>Lunas/Belum Lunas:</th>
 <th>Status:</th>
 
 
@@ -79,12 +78,12 @@ $i++;
 
 if($order_status=='pending'){
 
-$order_status = "Unpaid";
+$order_status = "Belum Lunas";
 
 }
 else{
 
-$order_status = "Paid";
+$order_status = "Lunas";
 
 }
 
@@ -94,7 +93,7 @@ $order_status = "Paid";
 
 <th><?php echo $i; ?></th>
 
-<td>$<?php echo $due_amount; ?></td>
+<td>Rp.<?php echo $due_amount; ?></td>
 
 <td><?php echo $invoice_no; ?></td>
 
@@ -107,7 +106,7 @@ $order_status = "Paid";
 <td><?php echo $order_status; ?></td>
 
 <td>
-<a href="confirm.php?order_id=<?php echo $order_id; ?>" target="blank" class="btn btn-primary btn-sm" > Confirm If Paid </a>
+<a href="confirm.php?order_id=<?php echo $order_id; ?>" target="blank" class="btn btn-primary btn-sm" > Konfirmasi Pembayaran </a>
 </td>
 
 

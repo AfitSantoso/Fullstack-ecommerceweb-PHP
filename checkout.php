@@ -11,7 +11,7 @@ include("includes/main.php");
 
 
   <!-- MAIN -->
-<h1 style="text-align:center;">Checkout</h1>
+<h1 style="text-align:center;"></h1>
 <br><br><br>
 
 

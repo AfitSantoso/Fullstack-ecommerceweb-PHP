@@ -39,7 +39,7 @@ include("includes/main.php");
 
 <div class="row">
   <div class="col-md-12">
-    <h1 style="text-align:center">Shopping Cart</h1>
+    <h1 style="text-align:center">Keranjang</h1>
   </div>
 </div>
 <div class="row">
@@ -65,7 +65,7 @@ $count = mysqli_num_rows($run_cart);
 
 ?>
 
-<p class="text-muted" > You currently have <?php echo $count; ?> item(s) in your cart. </p>
+<p class="text-muted" > Kamu saat ini mempunyai <?php echo $count; ?> item(s) dikeranjang </p>
 
 <div class="table-responsive" ><!-- table-responsive Starts -->
 
@@ -75,11 +75,11 @@ $count = mysqli_num_rows($run_cart);
 
 <tr>
 
-<th colspan="2" >Product</th>
+<th colspan="2" >Produk</th>
 
-<th>Unit Price</th>
+<th>Harga barang</th>
 
-<th colspan="1">Delete</th>
+<th colspan="1">Hapus</th>
 
 <th colspan="2"> Sub Total </th>
 
@@ -180,13 +180,13 @@ Rp.<?php echo $sub_total; ?>
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label>Coupon Code : </label>
+<label>Kupon Kode : </label>
 
 <input type="text" name="code" class="form-control">
 
 </div><!-- form-group Ends -->
 
-<input class="round-black-btn" type="submit" name="apply_coupon" value="Apply Coupon Code" >
+<input class="round-black-btn" type="submit" name="apply_coupon" value="Gunakan Kupon" >
 <br><br>
 </div><!-- form-inline pull-right Ends -->
 
@@ -199,7 +199,7 @@ Rp.<?php echo $sub_total; ?>
 
 <a href="index.php" class="round-black-btn"style='	color: #212529;	background-color: white;'>
 
-<i class="fa fa-chevron-left"></i> Continue Shopping
+<i class="fa fa-chevron-left"></i> Lanjut Belanja
 
 </a>
 
@@ -209,13 +209,13 @@ Rp.<?php echo $sub_total; ?>
 
 <button class="round-black-btn" style='	color: #212529;	background-color: white;' type="submit" name="update" value="Update Cart">
 
-<i class="fa fa-refresh"></i> Update Cart
+<i class="fa fa-refresh"></i> Update Keranjang
 
 </button>
 
 <a href="checkout.php" class="round-black-btn">
 
-Proceed to checkout <i class="fa fa-chevron-right"></i>
+Checkout <i class="fa fa-chevron-right"></i>
 
 </a>
 <br><br><br>
@@ -361,12 +361,12 @@ echo @$up_cart = update_cart();
 
 <div class="box-header"><!-- box-header Starts -->
 
-<h3>Order Summary</h3>
+<h3>Ringkasan Pesanan</h3>
 
 </div><!-- box-header Ends -->
 
 <p class="text-muted">
-Shipping and additional costs are calculated based on the values you have entered.
+Pengiriman dan biaya tambahan dihitung berdasarkan nilai barang yang anda masukkan. 
 </p>
 
 <div class="table-responsive"><!-- table-responsive Starts -->
@@ -377,27 +377,27 @@ Shipping and additional costs are calculated based on the values you have entere
 
 <tr>
 
-<td> Order Subtotal </td>
+<td> Total Harga Barang </td>
 
 <th> Rp.<?php echo $total; ?> </th>
 
 </tr>
 
-<tr>
+<!-- <tr>
 
-<td> Shipping and handling </td>
-
-<th>Rp.</th>
-
-</tr>
-
-<tr>
-
-<td>Tax</td>
+<td> Pengiriman dan Penanganan </td>
 
 <th>Rp.</th>
 
 </tr>
+
+<tr>
+
+<td>Pajak</td>
+
+<th>Rp.</th>
+
+</tr> -->
 
 <tr class="total">
 
@@ -434,7 +434,7 @@ Shipping and additional costs are calculated based on the values you have entere
 
 <div class="row">
 <div class="col-md-12">
-<h3 class="text-center"> You also like these Products </h3>
+<h3 class="text-center"> Produk yang mungkin kamu suka </h3>
 
 
 </div>
@@ -541,11 +541,11 @@ echo "
 
 <p class='buttons' >
 
-<a href='$pro_url' class='round-black-btn' >View details</a>
+<a href='$pro_url' class='round-black-btn' >Lihat Detail</a>
 
 <a href='$pro_url' class='round-black-btn'>
 
-<i class='fa fa-shopping-cart'></i> Add to cart
+<i class='fa fa-shopping-cart'></i> Tambah Keranjang
 
 </a>
 

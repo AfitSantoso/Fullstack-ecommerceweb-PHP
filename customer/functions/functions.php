@@ -123,11 +123,11 @@ echo "
 
 <p class='buttons' >
 
-<a href='details.php?pro_id=$pro_id' class='btn btn-default' >View details</a>
+<a href='details.php?pro_id=$pro_id' class='btn btn-default' >Lihat Detail</a>
 
 <a href='details.php?pro_id=$pro_id' class='btn btn-primary'>
 
-<i class='fa fa-shopping-cart'></i> Add to cart
+<i class='fa fa-shopping-cart'></i> Tambah Keranjang
 
 </a>
 

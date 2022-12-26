@@ -196,11 +196,11 @@ echo "
 
 <p class='buttons' >
 
-<a href='$pro_url' class='btn btn-default' >View details</a>
+<a href='$pro_url' class='btn btn-default' >Lihat Detail</a>
 
 <a href='$pro_url' class='btn btn-primary'>
 
-<i class='fa fa-shopping-cart'></i> Add to cart
+<i class='fa fa-shopping-cart'></i> Tambah Keranjang
 
 </a>
 
@@ -397,11 +397,11 @@ echo "
 
 <p class='buttons' >
 
-<a href='$pro_url' class='btn btn-default' >View details</a>
+<a href='$pro_url' class='btn btn-default' >Lihat Detail</a>
 
 <a href='$pro_url' class='btn btn-primary'>
 
-<i class='fa fa-shopping-cart' data-price=$pro_price></i> Add to cart
+<i class='fa fa-shopping-cart' data-price=$pro_price></i> Tambah Keranjang
 
 </a>
 

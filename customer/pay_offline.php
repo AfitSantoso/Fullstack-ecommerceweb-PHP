@@ -4,7 +4,7 @@
 
 <p class="text-muted" >
 
-If you have any questions, please feel free to <a href="../contact.php" >contact us,</a> our customer service center is working for you 24/7.
+Jika Anda memiliki pertanyaan, jangan ragu untuk <a href="../contact.php" >menghubungi kami,</a> pusat layanan pelanggan kami bekerja untuk Anda 24/7.
 
 </p>
 
@@ -21,9 +21,9 @@ If you have any questions, please feel free to <a href="../contact.php" >contact
 
 <tr>
 
-<th> Bank Account Details </th>
+<th> Detail Akun Bank </th>
 
-<th> Easy Paisa,UBL Omni,Mobi Cash Details: </th>
+<th> Dana, Shoppe Pay, GOpay </th>
 
 <th> Western Union Details: </th>
 
@@ -35,9 +35,9 @@ If you have any questions, please feel free to <a href="../contact.php" >contact
 
 <tr>
 
-<td> Bank Name:ubl Account No:03333333 Branch Code:0342 Branch Name:Shadara Lahore	 </td>
+<td> Bank Name:Bank Central Asia No:2109448 Nama: Afit Santoso</td>
 
-<td> NIC#001234567 Mobile No:03334566931, Name:M.T.Ahmed </td>
+<td> No:089632353483 Nama:Afit Santoso </td>
 
 <td> Full Name:M.T.Ahmed, Mobile No:03334566931, Name:M.T.Ahmed, Country:Pakistan, N.I.C No:001234567
 </td>

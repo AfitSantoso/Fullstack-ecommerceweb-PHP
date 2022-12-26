@@ -1,11 +1,11 @@
 
-<h1 align="center">Change Password </h1>
+<h1 align="center">Ubah Password </h1>
 
 <form action="" method="post"><!-- form Starts -->
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label>Enter Your Current Password</label>
+<label>Masukkan Password Saat Ini</label>
 
 <input type="text" name="old_pass" class="form-control" required>
 
@@ -14,7 +14,7 @@
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label>Enter Your New Password</label>
+<label>Masukkan Password Baru</label>
 
 <input type="text" name="new_pass" class="form-control" required>
 
@@ -23,7 +23,7 @@
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label>Enter Your New Password Again</label>
+<label>Masukkan Password Baru Lagi</label>
 
 <input type="text" name="new_pass_again" class="form-control" required>
 
@@ -33,7 +33,7 @@
 
 <button type="submit" name="submit" class="btn btn-primary">
 
-<i class="fa fa-user-md"> </i> Change Password
+<i class="fa fa-user-md"> </i> Ubah Password
 
 </button>
 

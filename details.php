@@ -97,7 +97,7 @@ $p_cat_title = $row_p_cat['p_cat_title'];
     <!-- HERO -->
 
     <div class="heading-section">
-                    <h2>Product Details</h2>
+                    <h2>Detail Produk</h2>
                 </div>
 
     <div class="nero">
@@ -258,13 +258,13 @@ if($status == "product"){
 
 <div class="form-group"><!-- form-group Starts -->
 <br><br>
-<label class="col-md-5 control-label" >Product Quantity </label>
+<label class="col-md-5 control-label" >Kuantitas Produk </label>
 
 <div class="col-md-7" ><!-- col-md-7 Starts -->
 
 <select name="product_qty" class="form-control"  >
 
-<option>Select quantity</option>
+<option>Pilih Kuantitas</option>
 <option selected>1</option>
 
 
@@ -293,13 +293,13 @@ if($status == "product"){
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-5 control-label" >Bundle Quantity </label>
+<label class="col-md-5 control-label" > Kuantitas Paket </label>
 
 <div class="col-md-7" ><!-- col-md-7 Starts -->
 
 <select name="product_qty" class="form-control" >
 
-<option>Select quantity</option>
+<option>Pilih Kuantitas</option>
 <option selected>1</option>
 
 
@@ -336,9 +336,9 @@ echo "
 
 <h2 class='price'>
 
- Price : <del> Rp.$pro_price </del><br>
+ Harga : <del> Rp.$pro_price </del><br>
 
-Product sale Price : Rp.$pro_psp_price
+Harga Jual Produk : Rp.$pro_psp_price
 
 </h2>
 
@@ -351,7 +351,7 @@ echo "
 
 <h2 class='price'>
 
- Price : Rp.$pro_price
+ Harga : Rp.$pro_price
 
 </h2>
 
@@ -369,9 +369,9 @@ echo "
 
 <h2 class='price'>
 
-Bundle Price : <del> Rp.$pro_price </del><br>
+Harga Paketan : <del> Rp.$pro_price </del><br>
 
-Bundle sale Price : Rp.$pro_psp_price
+Harga jual Paketan : Rp.$pro_psp_price
 
 </h2>
 
@@ -384,7 +384,7 @@ echo "
 
 <p class='price'>
 
-Bundle Price : Rp.$pro_price
+Harga Paketan : Rp.$pro_price
 
 </p>
 
@@ -401,13 +401,13 @@ Bundle Price : Rp.$pro_price
 
 <button  type="submit" name="add_cart" class="round-black-btn">
 
-<i class="fa fa-shopping-cart" ></i> Add to Cart
+<i class="fa fa-shopping-cart" ></i> Tambah keranjang
 
 </button>
 
 <button class="round-black-btn" type="submit" name="add_wishlist">
 
-<i class="fa fa-heart" ></i> Add to Wishlist
+<i class="fa fa-heart" ></i> Tambah Suka
 
 </button>
 
@@ -418,7 +418,7 @@ if(isset($_POST['add_wishlist'])){
 
 if(!isset($_SESSION['customer_email'])){
 
-echo "<script>alert('You Must Login To Add Product In Wishlist')</script>";
+echo "<script>alert('Kamu Harus login untuk Menambahkan Suka')</script>";
 
 echo "<script>window.open('checkout.php','_self')</script>";
 
@@ -492,12 +492,12 @@ echo "<script>window.open('$pro_url','_self')</script>";
 
 if($status == "product"){
 
-echo "Product Description";
+echo "Deskripsi Produk";
 
 }
 else{
 
-echo "Bundle Description";
+echo "Deskripsi Paket";
 
 }
 
@@ -507,7 +507,7 @@ echo "Bundle Description";
 
 <a class="round-black-btn" style="margin-bottom:10px; margin-left:20%;" href="#features" data-toggle="tab"><!-- btn btn-primary tab Starts -->
 
-Features
+Fitur
 
 </a><!-- btn btn-primary tab Ends -->
 
@@ -554,12 +554,12 @@ if($status == "product"){
 
 <div class="box same-height headline"><!-- box same-height headline Starts -->
 
-<h3 class="text-center"> You also like these Products </h3>
+<h3 class="text-center" > Produk yang mungkin kamu suka </h3>
 
 </div><!-- box same-height headline Ends -->
 
 </div><!-- col-md-3 col-sm-6 Ends -->
-
+<br><br><br><br><br>
 <?php
 
 $get_products = "select * from products order by rand() LIMIT 0,3";
@@ -657,11 +657,11 @@ echo "
 
 <p class='buttons' >
 
-<a href='$pro_url' class='btn btn-default' >View details</a>
+<a href='$pro_url' class='btn btn-default' >Lihat Detail</a>
 
 <a href='$pro_url' class='btn btn-primary'>
 
-<i class='fa fa-shopping-cart'></i> Add to cart
+<i class='fa fa-shopping-cart'></i> Tambah keranjang
 
 </a>
 
@@ -689,7 +689,7 @@ $product_label
 
 <div class="box same-height"><!-- box same-height Starts -->
 
-<h3 class="text-center"> Bundle Products </h3>
+<h3 class="text-center"> Produk Paketan </h3>
 
 </div><!-- box same-height Ends -->
 
@@ -803,7 +803,7 @@ echo "
 
 <a href='$pro_url' class='btn btn-primary'>
 
-<i class='fa fa-shopping-cart'></i> Add to cart
+<i class='fa fa-shopping-cart'></i> Tambah keranjang
 
 </a>
 

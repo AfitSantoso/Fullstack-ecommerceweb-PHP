@@ -39,7 +39,7 @@ padding:10px;
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12">
-        <h1 style="text-align:center;">Featured collection</h1>
+        <h1 style="text-align:center;">ARV Collection</h1>
 </div>
     </div>
 
