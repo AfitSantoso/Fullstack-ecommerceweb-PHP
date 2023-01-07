@@ -92,9 +92,9 @@ getPro();
     <ul>
         <li><h5>OFFICE ADDRESS</h5></li>
         <li>Head Office: ARV ID.
-180-182 Regent Street, London</li>
+Jalan Alamasyah, Lampung, Indonesia</li>
 <li>Telephone: 0123-456-789</li>
-<li>Email: support@yourwebsite.com</li>
+<li>Email: arv.id@gmail.com</li>
     </ul>
 </div>
 </div>

@@ -1,6 +1,6 @@
 <center><!-- center Starts -->
 
-<h1> Pay OffLine Using Method  </h1>
+<h1> Pay Online  </h1>
 
 <p class="text-muted" >
 
@@ -39,7 +39,7 @@ Jika Anda memiliki pertanyaan, jangan ragu untuk <a href="../contact.php" >mengh
 
 <td> No:089632353483 Nama:Afit Santoso </td>
 
-<td> Full Name:M.T.Ahmed, Mobile No:03334566931, Name:M.T.Ahmed, Country:Pakistan, N.I.C No:001234567
+<td> Full Name : ARV.ID. Country : Indonesia
 </td>
 
 

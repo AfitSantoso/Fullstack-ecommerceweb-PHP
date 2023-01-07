@@ -224,7 +224,7 @@
         <li><a class="currency__change" href="customer/my_account.php?my_orders">
             <?php
             if(!isset($_SESSION['customer_email'])){
-            echo "Welcome :Guest"; 
+            echo "Welcome"; 
             }
             else
             { 

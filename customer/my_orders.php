@@ -26,7 +26,7 @@ Jika Anda memiliki pertanyaan, jangan ragu untuk  <a href="../contact.php" > men
 
 <th>No :</th>
 <th>Total Bayar:</th>
-<th>Kode Pesanan:</th>
+<th>Invoice No:</th>
 <th>Kuantitas:</th>
 <th>Size:</th>
 <th>Tgl Pesan:</th>
