@@ -1,5 +1,18 @@
 .indexparallax {
-    background-image: url("../myimages/p2.jpg");
+    background-image: url("../images/headerarvid.jpg");
+
+    /* Set a specific height */
+    min-height: 90vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerimg {
+    background-image: url("../images/header.png");
 
     /* Set a specific height */
     min-height: 90vh;

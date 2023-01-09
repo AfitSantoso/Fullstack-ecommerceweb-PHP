@@ -162,14 +162,6 @@ include("includes/main.php");
 
 <div class="form-group"><!-- form-group Starts -->
 
-<center>
-
-<label> Captcha Verification </label>
-
-<div class="g-recaptcha" data-sitekey="6Lc-WxYUAAAAAFUhTFfBEzLGmEgRXHHdsD4ECvIC"></div>
-
-</center>
-
 </div><!-- form-group Ends -->
 
 

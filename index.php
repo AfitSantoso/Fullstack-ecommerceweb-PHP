@@ -34,9 +34,9 @@ padding:10px;
 
 <br><br>
 
-<div class="indexparallax"></div>
-
+<img src="images/header.png" alt="" height="880" width="1350">
 <div class="container-fluid">
+    
     <div class="row">
         <div class="col-md-12">
         <h1 style="text-align:center;">ARV Collection</h1>
@@ -98,3 +98,5 @@ Jalan Alamasyah, Lampung, Indonesia</li>
     </ul>
 </div>
 </div>
+
+

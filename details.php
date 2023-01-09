@@ -10,7 +10,7 @@ include("includes/main.php");
 ?>
 <?php
 
-echo '<br><br><div class="indexparallax"></div>
+echo '<br><br><div class="headerimg"></div>
 ';
 
 $product_id = @$_GET['pro_id'];
@@ -834,33 +834,7 @@ $product_label
 
 <?php } ?>
 
-</div><!-- row same-height-row Ends -->
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<div class="row">
-  <div class="col-md-12">
-    <h2 style="text-align:center;">Complimentary Items</h2>
-  </div>
 </div>
-<br><br>
-<div class="row">
-  <br><br>
-  <div class="col-md-6" ><img src="myimages/3.jpg" alt="" style="border-radius:10px; max-width:90%;  margin-left:20px;"></div>
-  <div class="col-md-6"><h3 style="text-align:center;">FREE CARD</h3><br><br>
-<h4 style="text-align:center; ">A paragraph is a series of related sentences developing a central idea, called the topic. Try to think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that supports one central, unified idea. Paragraphs add one idea at a time to your broader argument.</h4></div>
-</div><br><br><br>
-
-<div class="row">
-  <br><br>
-  <div class="col-md-6" ><img src="myimages/3.jpg" alt="" style="border-radius:10px;max-width:90%;  margin-left:20px;"></div>
-  <div class="col-md-6"><h3 style="text-align:center;">FREE CARD</h3><br><br>
-<h4 style="text-align:center; ">A paragraph is a series of related sentences developing a central idea, called the topic. Try to think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that supports one central, unified idea. Paragraphs add one idea at a time to your broader argument.</h4></div>
-</div>
-<!-- col-md-12 Ends -->
-
-
-</div><!-- container Ends -->
-</div><!-- content Ends -->
-
 
 
 <?php
